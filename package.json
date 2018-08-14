@@ -1,0 +1,32 @@
+{
+  "name": "node-js-api-design",
+  "version": "0.0.1",
+  "description": "A NodeJS API design workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodersPen/node-js-API-design.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "API",
+    "Design",
+    "RESTful",
+    "APIs",
+    "Express",
+    "MongoDB",
+    "Jest",
+    "Unit",
+    "testing",
+    "workshop"
+  ],
+  "author": "Leonardo Graterol (@pankas87)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodersPen/node-js-API-design/issues"
+  },
+  "homepage": "https://github.com/CodersPen/node-js-API-design#readme"
+}
