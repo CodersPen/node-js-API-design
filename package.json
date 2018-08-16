@@ -2,8 +2,9 @@
   "name": "node-js-api-design",
   "version": "0.0.1",
   "description": "A NodeJS API design workshop",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": ""
   },
   "repository": {
@@ -28,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/CodersPen/node-js-API-design/issues"
   },
-  "homepage": "https://github.com/CodersPen/node-js-API-design#readme"
+  "homepage": "https://github.com/CodersPen/node-js-API-design#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
