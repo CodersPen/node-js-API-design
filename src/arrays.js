@@ -3,13 +3,15 @@ function find(element, arr) {
         throw new Error('No way José!');
     }
 
-    for (let val of arr) {
-        if (element == val) {
-            return element;
-        }
-    }
+    let result = null;
 
-    return null;
+    arr.forEach((val) => {
+        if (val === element) {
+            result = val;
+        }
+    });
+
+    return result;
 }
 
 module.exports = { find };
