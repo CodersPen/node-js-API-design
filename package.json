@@ -32,7 +32,8 @@
   },
   "homepage": "https://github.com/CodersPen/node-js-API-design#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
