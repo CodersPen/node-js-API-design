@@ -1,3 +1,4 @@
+const util = require('util');
 const request = require('supertest');
 const app = require('../../app');
 
@@ -7,7 +8,7 @@ describe('Test index route', () => {
             .get('/')
             .then((response) => {
                 expect(response.statusCode).toBe(200);
-                expect(response.body).toBe('Queloqueh!');
+                expect(response.text).toBe('Queloqueh!');
                 done();
             });
     });
